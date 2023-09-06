@@ -19,10 +19,19 @@ function App() {
     loadData();
   }), []);
 
+  // const handleValueChange = (event) => {
+        
+  // }
+
   return (
     <>
       <h1>Countries</h1>
-      {countries ? <CountryList countries={countries}/> : <p>loading...</p>}
+      {/* <div class="countries"> */}
+        {countries ? <CountryList countries={countries}/> : <p>loading...</p>}
+      {/* </div> */}
+      {/* <div class="visitedCountries"> */}
+        {/* {countries ? <CountryList visitedCountries={visitedCountries}/> : <p>You haven't visited any countries yet</p>} */}
+      {/* </div> */}
     </>
   );
 }
