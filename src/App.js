@@ -26,13 +26,15 @@ function App() {
   return (
     <>
       <h1>Countries</h1>
-      {/* <div class="countries"> */}
+      {/* <div class="countries-list"> */}
+        {/* <div class="countries"> */}
         {countries ? <CountryList countries={countries}/> : <p>loading...</p>}
+        {/* </div> */}
+        {/* <div class="visitedCountries"> */}
+          {/* {countries ? <CountryList visitedCountries={visitedCountries}/> : <p>You haven't visited any countries yet</p>} */}
+        {/* </div> */}
       {/* </div> */}
-      {/* <div class="visitedCountries"> */}
-        {/* {countries ? <CountryList visitedCountries={visitedCountries}/> : <p>You haven't visited any countries yet</p>} */}
-      {/* </div> */}
-    </>
+   </>
   );
 }
 

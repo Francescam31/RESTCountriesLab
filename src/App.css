@@ -38,3 +38,7 @@
 }
 
 
+
+.countries-list {
+  display: flex;
+}
